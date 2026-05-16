@@ -1,2 +1,2 @@
-# Gigin-Web-Project
+# gigin-agentic-qa-project
 Web Project Description
