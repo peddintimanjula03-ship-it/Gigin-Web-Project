@@ -1,138 +1,183 @@
-# gigin-agentic-qa-project
-Web Project Description
-QA Testing project for AI-driven recruitment platform covering ATS workflows, Career Page, JobDiva integration, Talent App testing, OTP validation, browser compatibility, and workflow testing.
 # Gigin Agentic Recruitment Platform - QA Testing Project
 
-## Overview
-This project involves QA testing of an AI-driven recruitment platform that manages ATS workflows, career page applications, JobDiva integrations, and talent application processes.
+## Project Overview
 
-The project focuses on validating recruitment workflows, candidate application flows, OTP verification, browser compatibility, workflow stability, and API validations.
+This project involved QA testing of an AI-driven recruitment platform that automates the end-to-end hiring process. The platform includes Agentic AI Hiring, ATS (Applicant Tracking System), Career Page, JobDiva Integration, Talent App, and Background Verification (BGV) modules.
 
----
-
-# Modules Tested
-
-## ATS (Applicant Tracking System)
-Tested recruitment workflows including:
-- JD upload workflow
-- Candidate sourcing
-- Resume screening
-- Workflow generation
-- Shortlisting validation
-- Candidate evaluation flow
+The objective was to validate recruitment workflows, candidate application processes, AI-generated shortlisting workflows, OTP verification, system integrations, API responses, and overall application stability.
 
 ---
 
-## Career Page
-Tested candidate-side application workflows:
-- Job application flow
-- Resume upload validation
-- OTP verification
-- Browser compatibility testing
-- Session and refresh handling
+## Modules Tested
+
+### Agentic AI Hiring Platform
+
+* Tested AI-based Job Description (JD) generation using recruiter prompts.
+* Validated candidate sourcing functionality based on generated JDs.
+* Tested candidate upload and profile processing workflows.
+* Verified AI-generated shortlisting plans.
+* Tested review workflows using Proceed and Suggest options.
+* Validated automatic screening call initiation.
+* Verified candidate status updates based on screening outcomes.
+* Tested end-to-end candidate shortlisting workflows.
+
+
+### ATS (Applicant Tracking System)
+
+* Tested job creation and job posting workflows.
+* Validated publishing jobs across recruitment platforms.
+* Verified candidate application submission through the career portal.
+* Tested synchronization of candidate applications from the career page to ATS.
+* Validated candidate profile management and application tracking.
+* Verified status transitions such as Applied, Under Review, Shortlisted, Interviewed, Selected, and Rejected.
+* Tested recruiter workflows for managing candidate applications.
+* Performed end-to-end testing of recruitment workflows.
+* Validated data consistency across integrated modules.
+
+
+### Career Page
+
+* Tested candidate job application workflows.
+* Verified resume upload functionality.
+* Validated OTP verification process.
+* Tested session management and refresh handling.
+* Performed browser compatibility testing.
+
+### JobDiva Integration
+
+* Tested JobDiva job synchronization workflows.
+* Validated fetching of jobs and candidate applications.
+* Verified data mapping between JobDiva and the platform.
+* Tested automated email triggering to candidates.
+* Validated workflow generation based on candidate responses.
+* Verified status synchronization across integrated systems.
+* Performed API and network validation using Postman and browser DevTools.
+
+### Talent App
+
+* Tested candidate registration and login workflows.
+* Validated OTP verification.
+* Verified profile creation and profile updates.
+* Tested resume upload and submission workflows.
+* Validated recommended jobs functionality.
+* Tested job search and job details pages.
+* Verified visibility of applied jobs.
+* Validated application status tracking.
+* Tested chat module functionality.
+* Verified recruiter/HR contact details visibility.
+* Tested candidate engagement workflows.
+
+### Background Verification (BGV)
+
+* Tested creation of verification packages.
+* Validated candidate information capture.
+* Tested verification email generation and delivery.
+* Verified OTP-based verification process.
+* Tested candidate document submission workflows.
+* Validated integration with verification systems.
+* Verified status transitions from In Progress to Clear.
+* Performed end-to-end verification workflow testing.
 
 ---
 
-## JobDiva Integration
-Tested third-party JobDiva integration workflows:
-- Job import validation
-- Workflow synchronization
-- Imported workflow verification
-- API and network validation
+## Testing Activities Performed
+
+* Requirement Analysis
+* Test Scenario Creation
+* Test Case Design & Execution
+* Functional Testing
+* UI Testing
+* Regression Testing
+* End-to-End Testing
+* Browser Compatibility Testing
+* API Validation
+* Defect Reporting & Tracking
+* Retesting & Verification
+* Test Documentation
 
 ---
 
-## Talent App
-Tested candidate engagement workflows:
-- Login and signup flow
-- OTP verification
-- Profile creation
-- Resume submission
-- Candidate tracking
+## My Contributions
 
----
+### Functional Testing
 
-# Features Tested
-- Resume upload
-- OTP verification
-- Candidate screening
-- Workflow automation
-- Browser compatibility testing
-- Session handling
-- Refresh validation
-- API response validation
-- Candidate evaluation flow
+* Executed test cases across multiple modules.
+* Validated business workflows and system functionality.
+* Verified user interface behavior and navigation.
 
----
+### Regression Testing
 
-# My Contribution
+* Re-tested existing functionalities after bug fixes.
+* Ensured application stability across releases.
 
-## Functional Testing
-- Performed end-to-end workflow testing
-- Validated user workflows across modules
-- Tested UI functionality and navigation
-- Verified workflow state transitions
+### Browser Compatibility Testing
 
-## Regression Testing
-- Re-tested existing functionalities after fixes
-- Verified workflow stability across releases
+Validated application behavior across:
 
-## Browser Compatibility Testing
-Validated application behavior in:
-- Chrome
-- Edge
-- Firefox
+* Google Chrome
+* Microsoft Edge
+* Mozilla Firefox
 
-Validated:
-- OTP functionality
-- Resume upload
-- Session handling
-- Navigation behavior
+###  Automation Testing
+Developed basic automation scripts using Selenium WebDriver and Java.
+Automated Login, Signup, OTP Verification, and Resume Upload functionalities.
+Executed automation scripts and verified expected results.
+Performed basic regression testing using automation.
+Used TestNG for test execution and reporting.
 
-## Bug Reporting
-Identified and reported issues related to:
-- OTP failures
-- Refresh handling issues
-- Workflow stuck states
-- Resume upload failures
-- Browser-specific issues
-- Candidate evaluation flow failures
+### Bug Reporting
 
-## API & Network Validation
-Used browser DevTools and Postman to:
-- Validate API responses
-- Verify request and response behavior
-- Monitor network status codes
-- Validate workflow API calls
+Reported and tracked issues related to:
 
-## Test Documentation
+* OTP verification
+* Workflow failures
+* Status update inconsistencies
+* Resume upload validations
+* Integration issues
+* Browser-specific defects
+
+### API & Network Validation
+
+Used Postman and browser DevTools to:
+
+* Validate API responses
+* Verify request and response payloads
+* Monitor network calls
+* Validate integration workflows
+
+### Test Documentation
+
 Created and maintained:
-- Test cases
-- Bug reports
-- Test scenarios
-- Regression test checklists
+
+* Test Cases
+* Test Scenarios
+* Bug Reports
+* Regression Checklists
+* Test Execution Reports
 
 ---
 
-# Tech Stack
+## Tools & Technologies
 
-## Testing Tools
-- Selenium
-- Postman
-- Chrome DevTools
-- TestNG
+### Testing Tools
 
-## Languages
-- Java
-- SQL
+* Selenium WebDriver
+* Postman
+* Chrome DevTools
 
-## Project Tools
-- Jira
-- GitHub
+### Programming Languages
+
+* Core Java
+* SQL
+
+### Project Management Tools
+
+* Jira
+* GitHub
 
 ---
 
-# Project Structure
+## Project Structure
 
 ```text
 gigin-agentic-qa-project/
@@ -144,97 +189,25 @@ gigin-agentic-qa-project/
 ├── reports/
 ├── automation-scripts/
 ├── README.md
-├── pom.xml
 └── .gitignore
 ```
 
 ---
 
-# Setup Instructions
+## Key Achievements
 
-## Prerequisites
-- Java installed
-- Maven installed
-- Chrome browser
-- Selenium dependencies
+Performed end-to-end testing of AI-powered recruitment workflows.
+Validated ATS, JobDiva Integration, Talent App, Career Page, and BGV modules.
+Executed both Manual Testing and Basic Automation Testing.
+Automated key user workflows using Selenium WebDriver and Java.
+Identified, reported, and verified critical defects related to workflows and OTP validation.
+Conducted functional, regression, UI, and end-to-end testing across multiple modules.
+Ensured seamless candidate application, screening, and recruitment lifecycle management.
+Contributed to application quality through structured testing, defect tracking, and verification.
+---*
 
-## Steps to Run
+## Author
 
-```bash
-git clone <repository-url>
-cd gigin-agentic-qa-project
-mvn test
-```
-
----
-
-# Test Cases Covered
-
-## ATS
-- Verify JD upload functionality
-- Validate candidate sourcing workflow
-- Verify shortlisting workflow
-
-## Career Page
-- Verify OTP verification flow
-- Validate browser refresh handling
-- Verify resume upload restrictions
-
-## JobDiva
-- Validate imported workflow consistency
-- Verify synchronization between systems
-
-## Talent App
-- Verify login and signup flow
-- Validate candidate profile creation
-
----
-
-# Bugs Identified
-- OTP not received in Edge and Firefox
-- Workflow stuck after refresh
-- Resume upload size restriction issues
-- Imported workflow inconsistencies
-- Candidate evaluation mail failures
-
----
-
-# Challenges Faced
-- Browser-specific OTP issues
-- Session persistence after refresh
-- Workflow synchronization issues
-- Refresh handling during OTP verification
-- File upload validation handling
-
----
-
-# Future Improvements
-- Add automation framework enhancements
-- Integrate CI/CD pipelines
-- Add API automation coverage
-- Improve cross-browser automation support
-
----
-
-# Resume-Friendly Achievements
-- Performed end-to-end testing for AI recruitment workflows.
-- Identified critical OTP and workflow synchronization issues.
-- Validated browser compatibility across Chrome, Edge, and Firefox.
-- Reduced manual validation efforts through structured testing workflows.
-
----
-
-# Screenshots
-Add screenshots for:
-- ATS dashboard
-- Career page application flow
-- OTP verification screen
-- Workflow generation screen
-- Bug reports
-- Basic Automation execution reports
-
----
-
-# Author
 P. Manjula
+QA Intern
 QA Tester
